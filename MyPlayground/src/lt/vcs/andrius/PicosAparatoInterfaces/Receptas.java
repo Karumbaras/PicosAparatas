@@ -1,7 +1,7 @@
 package lt.vcs.andrius.PicosAparatoInterfaces;
 
 public interface Receptas {
-    public Produktai getSunaudotiniProduktai(int picosDydis);
+    public Produktai getSunaudotiniProduktai(int picosDydis) throws Exception;
 
     public void setProduktai(Produktai produktai);
 

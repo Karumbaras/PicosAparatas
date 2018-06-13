@@ -10,13 +10,18 @@ public class AndriausReceptas implements Receptas {
     private String pavadinimas;
 
     @Override
-    public Produktai getSunaudotiniProduktai(int picosDydis) {
+    public Produktai getSunaudotiniProduktai(int picosDydis) throws Exception {
         if(receptoProduktai == null || picosDydis == 0 || pavadinimas == null){
             System.err.println("Produktai, dydis arba pavadinimas neinicializuoti!");
             return null;
         }
         // TODO implement magic formula to calculate products
         System.err.println("Produktai neskaiciuojami!");
+        if(true){
+            throw new Exception("sugadinau!");
+        }
+
+        //
         return receptoProduktai;
     }
 

@@ -36,7 +36,7 @@ public class PicosAparatas implements IPicosAparatas {
 
         // TODO validacija
         if(pica != null){
-            this.produktai.subsctractProduktai(pica.getReceptas().getSunaudotiniProduktai(dydis));
+            //this.produktai.subsctractProduktai(pica.getReceptas().getSunaudotiniProduktai(dydis));
             System.out.println("Pica pagaminta!");
         }
 

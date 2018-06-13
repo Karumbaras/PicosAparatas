@@ -8,6 +8,8 @@ public class Produktai {
     private double desra;
     private double pomidorai;
 
+    Object o = new Object();
+
     public Produktai(double suris, double padas, double padazas, double desra, double pomidorai) {
         this.suris = suris;
         this.padas = padas;
@@ -82,4 +84,8 @@ public class Produktai {
                 ", pomidorai=" + pomidorai +
                 '}';
     }
+
+
+
+
 }
