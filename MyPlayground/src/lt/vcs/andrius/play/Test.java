@@ -1,32 +1,30 @@
 package lt.vcs.andrius.play;
 
+
+import org.apache.log4j.Logger;
+
 public class Test {
 
-    public static void main(String argv[]) {
+    private static Logger log = Logger.getLogger(Test.class.getName());
 
-        long sk3 = Long.MAX_VALUE;
-        long sk4 = sk3 - 6854775807L;
-        // floag 6-7 skaičiai
-        // double 12?
+    public static void metodas1(String param){
+        log.trace(param);
+        try{
+            //
+            param.trim();
+        }catch (Exception e) {
+            log.error("Netiketa klaida", e);
+        }
+    }
 
-        System.out.println(sk3);
-        System.out.println(sk4);
+    public static void main(String[] args) {
 
-        float sk5 = (float) sk3;
-        float sk6 = (float) sk4;
+        log.info("programa startuoja");
 
-        System.out.println(sk5);
-        System.out.println(sk6);
-
-
-
-
-        System.out.println((long) sk5);
-        System.out.println((long) sk6);
+        metodas1(null);
 
 
-
-
+        log.info("programa issijungia");
 
     }
 }

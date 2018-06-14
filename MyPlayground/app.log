@@ -1,0 +1,22 @@
+2018-06-14 19:25:25,861 ERROR l.v.a.p.Test [main] Netiketa klaida java.lang.NullPointerException
+	at lt.vcs.andrius.play.Test.metodas1(Test.java:14)
+	at lt.vcs.andrius.play.Test.main(Test.java:24)
+
+2018-06-14 19:26:16,591 ERROR l.v.a.p.Test [main] Netiketa klaida java.lang.NullPointerException
+	at lt.vcs.andrius.play.Test.metodas1(Test.java:14)
+	at lt.vcs.andrius.play.Test.main(Test.java:24)
+
+2018-06-14 19:29:34,702 INFO l.v.a.p.Test [main] programa startuoja 
+2018-06-14 19:29:34,707 TRACE l.v.a.p.Test [main] null 
+2018-06-14 19:29:34,707 ERROR l.v.a.p.Test [main] Netiketa klaida java.lang.NullPointerException
+	at lt.vcs.andrius.play.Test.metodas1(Test.java:14)
+	at lt.vcs.andrius.play.Test.main(Test.java:24)
+
+2018-06-14 19:29:34,729 INFO l.v.a.p.Test [main] programa issijungia 
+2018-06-14 19:31:25,817 INFO l.v.a.p.Test [main] programa startuoja 
+2018-06-14 19:31:25,823 TRACE l.v.a.p.Test [main] null 
+2018-06-14 19:31:25,823 ERROR l.v.a.p.Test [main] Netiketa klaida java.lang.NullPointerException
+	at lt.vcs.andrius.play.Test.metodas1(Test.java:14)
+	at lt.vcs.andrius.play.Test.main(Test.java:24)
+
+2018-06-14 19:31:25,843 INFO l.v.a.p.Test [main] programa issijungia 
